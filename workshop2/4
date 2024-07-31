@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main(){
+   
+    float a,b,c;
+    scanf("%f",&a);
+    scanf("%f",&b);
+    c =a/(b*b);
+    if(c>=30){
+        printf("Your BMI is %.2f\n",c);
+        printf("You are obese.",c);
+
+    }
+    else if(c>=25){
+        printf("Your BMI is %.2f\n",c);
+        printf("You are overweight.",c);
+    }
+    else if(c>=18.5){
+        printf("Your BMI is %.2f\n",c);
+        printf("You are normal weight.",c);
+    }
+    else {
+        printf("Your BMI is %.2f\n",c);
+        printf("You are underweight.",c);
+    }
+
+
+    
+}
+    
+    
+    
+
+    
